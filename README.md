@@ -13,10 +13,13 @@ variety of geographic and data analysis applications.
 
 1.  **wb_countries**
     - **Description:** Shapefile of the countries of the world (level =
-      0).  
+      0).
 
     - **Format:** `SpatialPolygonsDataFrame` with 251 observations and
       33 variables.  
+
+    - **Features**
+      [Variables](https://dvillasanao.github.io/WorldShapefiles/reference/wb_countries.html)
 
     - **Usage:**
 
@@ -31,12 +34,19 @@ variety of geographic and data analysis applications.
     - **Format:** `SpatialLinesDataFrame` with international borders
       remarks.  
 
+    - **Features**
+      [Variables](https://dvillasanao.github.io/WorldShapefiles/reference/International_Borders.html)
+
     - **Usage:**
 
       ``` r
       data("International_Borders")   
       class(International_Borders) # should return "SpatialLinesDataFrame".  
       ```
+
+## Reference
+
+- [`WorldShapefiles 0.1.0`](https://dvillasanao.github.io/WorldShapefiles/)
 
 ## 📦 Instalación
 
