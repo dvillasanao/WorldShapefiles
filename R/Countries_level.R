@@ -1,0 +1,52 @@
+#' Shapefile of countries (level = 0)
+#'
+#' Shapefile of the countries, containing the polygons of the international boundaries. 
+#' World Country Polygons - Very High Definition
+#' \url{https://datacatalog.worldbank.org/search/dataset/0038272/World-Bank-Official-Boundaries}
+#'
+#' @section Variables:
+#'
+#' \itemize{
+#' \item{\code{OBJECTID}}{- Object ID}
+#' \item{\code{featurecla}}{- Feature Class}
+#' \item{\code{LEVEL}}{- Level}
+#' \item{\code{TYPE}}{- Type}
+#' \item{\code{FORMAL_EN}}{- Full formal country name (English)}
+#' \item{\code{FORMAL_FR}}{- Full formal country name (French)}
+#' \item{\code{POP_EST}}{- Population estimation}
+#' \item{\code{POP_RANK}}{-Population Rank}
+#' \item{\code{GDP_MD_EST}}{- GDP estimation}
+#' \item{\code{POP_YEAR}}{- Population Year}
+#' \item{\code{LASTCENSUS}}{- Last Census}
+#' \item{\code{GDP_YEAR}}{- GDP Year}
+#' \item{\code{ECONOMY}}{- Economy}
+#' \item{\code{INCOME_GRP}}{- Income GDP}
+#' \item{\code{FIPS_10_}}{- FIPS_10}
+#' \item{\code{ISO_A2}}{- ISO A2 Code}
+#' \item{\code{ISO_A3}}{- ISO A3 Code}
+#' \item{\code{ISO_A3_EH}}{- ISO A3 Code}
+#' \item{\code{ISO_N3}}{- ISO N3 Code}
+#' \item{\code{UN_A3}}{- UN N3 Code}
+#' \item{\code{WB_A2}}{- World Bank A2 code}
+#' \item{\code{WB_A3}}{- World Bank A3 code}
+#' \item{\code{CONTINENT}}{- Continent}
+#' \item{\code{REGION_UN}}{- UN Region}
+#' \item{\code{SUBREGION}}{- Subregion}
+#' \item{\code{REGION_WB}}{- Region World bank}
+#' \item{\code{NAME_EN}}{-Names in English}
+#' \item{\code{NAME_ES}}{- Names in Spanish}
+#' \item{\code{WB_NAME}}{- Grado de marginación, 2020}
+#' \item{\code{WB_RULES}}{- World Bank Rules}
+#' \item{\code{WB_REGION}}{- World Bank Region}
+#' \item{\code{Shape_Leng}}{- Shape length}
+#' \item{\code{Shape_Area}}{- Shape area}
+#' }
+#'  @docType SpatialPolygonsDataFrame
+#' @name wb_countries
+#' @usage wb_countries
+#' @format A SpatialPolygonsDataFrame with 251 observations on the following 33 variables.
+#' @examples
+#' \dontrun{class(wb_countries)}
+"wb_countries"
+
+
