@@ -41,6 +41,5 @@ Cartographic boundaries
 }
 
 \examples{
-\dontrun{class(International_Borders)}
+\dontrun{class(international_boundaries)}
 }
-\keyword{datasets}

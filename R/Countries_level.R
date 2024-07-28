@@ -47,6 +47,6 @@
 #' @format A SpatialPolygonsDataFrame with 251 observations on the following 33 variables.
 #' @examples
 #' \dontrun{class(wb_countries)}
-"wb_countries"
+data("wb_countries")
 
 

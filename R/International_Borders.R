@@ -31,5 +31,5 @@
 #' @usage International_Borders
 #' @format A SpatialLinesDataFrame with 447 observations on the following 9 variables.
 #' @examples
-#' \dontrun{class(International_Borders)}
-"International_Borders"
+#' \dontrun{class(international_boundaries)}
+data("international_boundaries")
